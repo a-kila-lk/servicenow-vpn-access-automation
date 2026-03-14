@@ -1,26 +1,26 @@
 # ServiceNow VPN Access Request Automation
 
-This project demonstrates a ServiceNow ITSM workflow that automates VPN access requests using the Service Catalog.
+This project demonstrates a ServiceNow ITSM workflow that automates VPN access requests using the Service Catalogue.
 
 ## Project Overview
 
 Employees often need VPN access to connect securely to internal company systems.  
-This project simulates a real-world ServiceNow workflow where users request VPN access through the Service Catalog, and the system automatically generates an incident for IT support.
+This project simulates a real-world ServiceNow workflow where users request VPN access through the Service Catalogue, and the system automatically generates an incident for IT support.
 
 ## Features
 
-- Service Catalog Item for VPN access requests
+- Service Catalogue Item for VPN access requests
 - Form variables for user input
 - Client Script validation using JavaScript
 - Business Rule automation
 - Automatic Incident creation
-- Assignment to Network support group
+- Assignment to the Network support group
 
 ## Workflow
 
 User submits VPN request  
 ↓  
-Service Catalog collects request details  
+Service Catalogue collects request details  
 ↓  
 Client Script validates the form  
 ↓  
@@ -28,20 +28,41 @@ Business Rule triggers automation
 ↓  
 Incident is automatically created  
 ↓  
-Incident is assigned to Network Support team  
+Incident is assigned to the Network Support team  
 
 ## Technologies Used
 
 - ServiceNow
 - JavaScript
 - ITSM (Incident Management)
-- Service Catalog
+- Service Catalogue
 - Business Rules
 - Client Scripts
 
+## Screenshots
+
+### Catalogue Item
+![Catalog Item](screenshots/catalog-item.png)
+
+### Variables
+![Variables](screenshots/variables.png)
+
+### Catalogue Client Script
+![Client Script](screenshots/client-script.png)
+
+### Business Rule
+![Business Rule](screenshots/business-rule.png)
+
+### Request Form
+![Request Form](screenshots/request-form.png)
+
+### Incident Created Automatically
+![Incident Created](screenshots/incident-created.png)
+
+
 ## Example Automation Script
 
-```javascript
+```JavaScript
 (function executeRule(current, previous) {
 
 var inc = new GlideRecord('incident');
