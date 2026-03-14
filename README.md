@@ -45,7 +45,11 @@ Incident is assigned to the Network Support team
 ![Catalog Item](screenshots/catalog-item.png)
 
 ### Variables
-![Variables](screenshots/variables.png) (variables_Add Variables to the Request Form.png)
+
+![Variables](screenshots/variables.png)
+
+![Variables – Add Variables to the Request Form](screenshots/variables__Add Variables to the Request Form.png)
+
 
 ### Catalogue Client Script
 ![Client Script](screenshots/client-script.png)
@@ -54,7 +58,13 @@ Incident is assigned to the Network Support team
 ![Business Rule](screenshots/business-rule.png)
 
 ### Request Form
+
 ![Request Form](screenshots/request-form.png)
+
+![VPN Access Request Submitted](screenshots/request-form_VPN_access_request_sussesful.png)
+
+![Validation Error – Reason Too Short](screenshots/request-form_VPN_req_too_short_Error_alert.png)
+
 
 ### Incident Created Automatically
 ![Incident Created](screenshots/incident-created.png)
