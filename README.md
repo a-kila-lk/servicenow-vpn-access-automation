@@ -45,8 +45,7 @@ Incident is assigned to the Network Support team
 ![Catalog Item](screenshots/catalog-item.png)
 
 ### Variables
-![Variables](screenshots/variables.png)
-![Variables](screenshots/variables_Add Variables to the Request Form.png)
+![Variables](screenshots/variables.png) (variables_Add Variables to the Request Form.png)
 
 ### Catalogue Client Script
 ![Client Script](screenshots/client-script.png)
